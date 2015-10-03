@@ -1,14 +1,1 @@
-$(document).ready(function() {
-	var $contentItems=$(".content-item");
-	var $contentItemsPreview=$(".content-item-preview");
-	$contentItems.hide();
-	$contentItemsPreview.show();
-	$(".expand-view-all").click(function(event) {
-		 // Act on the event 
-		$(this).parent().parent().parent().hide().prev().show();
-	});
-	$(".unexpend").click(function(event) {
-		/* Act on the event */
-		$(this).parents(".content-item").hide().next().show();
-	});
-});
+$(document).ready(function(){var e=$(".content-item"),n=$(".content-item-preview");e.hide(),n.show(),$(".expand-view-all").click(function(e){$(this).parent().parent().parent().hide().prev().show()}),$(".unexpend").click(function(e){$(this).parents(".content-item").hide().next().show()})});
