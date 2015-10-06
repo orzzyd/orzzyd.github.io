@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.for-clear{
+	clear: both;
+}
+body{
+	background-color: rgb(48, 48, 48);
+	font-family: Microsoft Yahei;
+	color: white;
+}
+a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+a:hover{
+	color: #80bd01;
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+}
+/*header*/
+.header{
+	height: 24px;
+	line-height: 24px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+	background-color: #80bd01;
+	background: -webkit-linear-gradient(top,#90cd01,#407d01);
+	background: -ms-linear-gradient(top,#90cd01,#407d01);
+	background: -moz-linear-gradient(top,#90cd01,#407d01);
+	background: -o-linear-gradient(top,#90cd01,#407d01);
+}
+.header .header-content{
+	height: 100%;
+	width: 960px;
+	margin: 0px auto;
+	font-family: Courier New, Courier, monospace;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.header .header-content .resume{
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1.2em;
+	float: left;
+}
+.header .header-content .contact{
+	float: right;
+	text-shadow: 0px 0px 2px gray;
+}
+/*header end*/
+
+/*memu-bar*/
+.menu-bar{
+	margin-top: 24px;
+	height: 100px;
+	width: 100%;
+	background-color: rgb(48, 48, 48);
+	min-width: 960px;
+}
+.menu-bar .menu{
+	margin: 0px auto;
+	width: 960px;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+.menu-bar .menu img{
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	position: absolute;
+	bottom: -16px;
+	left: 0px;
+	border-radius: 50%;
+	border: 2px #80bd01 solid;
+}
+.menu-bar .menu .menu-items{
+	display: inline-block;
+	position: relative;
+	margin: 0px auto;
+	top:  60px;
+}
+.menu-bar .menu .menu-items i{
+	display: inline-block;
+	border: none;
+	border-left: 1px solid gray;
+	height: 10px;
+	margin: 0px 10px;
+}
+.menu .active-page{
+	color: #80bd01;
+}
+/*memu-bar end*/
+.main{
+	width: 100%;
+	background-color: #ddd;
+	min-width: 960px;
+}
+.main .main-content{
+	width: 960px;
+	height: 100%;
+	margin: 0px auto;
+	padding: 30px 0px;
+	color: black;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: rgb(48, 48, 48);
+	min-width: 960px;
+}
+.footer .footer-content{
+	margin: 20px auto;
+	height: 100%;
+	width: 960px;
+	color: white;
+	font-size: 13px;
+	font-weight: lighter;
+	font-family: Courier New, Courier, monospace;
+}
+.footer .footer-content span{
+	float: right;
+}
